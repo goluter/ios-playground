@@ -1,9 +1,9 @@
 //
 //  SceneDelegate.swift
-//  playground
+//  ios-playground
 //
-//  Created by kang juyoung on 2020/10/02.
-//  Copyright © 2020 JooYoung Kang. All rights reserved.
+//  Created by 강주영 on 05/10/2020.
+//  Copyright © 2020 jooyoung. All rights reserved.
 //
 
 import UIKit
