@@ -16,6 +16,20 @@
 		1836D346252AD9E800707F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1836D344252AD9E800707F87 /* LaunchScreen.storyboard */; };
 		1836D351252AD9E900707F87 /* ios_playgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D350252AD9E900707F87 /* ios_playgroundTests.swift */; };
 		1836D35C252AD9E900707F87 /* ios_playgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D35B252AD9E900707F87 /* ios_playgroundUITests.swift */; };
+		1836D36B252AE2F700707F87 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D36A252AE2F700707F87 /* GCD.swift */; };
+		1836D36E252B00CB00707F87 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D36D252B00CB00707F87 /* UIImage+Extension.swift */; };
+		1836D370252B192800707F87 /* DispatchGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D36F252B192800707F87 /* DispatchGroup.swift */; };
+		1836D374252C0F2500707F87 /* ServiceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D373252C0F2500707F87 /* ServiceListViewController.swift */; };
+		1836D377252C193700707F87 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D376252C193700707F87 /* SearchViewController.swift */; };
+		1836D37C252C39C500707F87 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D37A252C39C500707F87 /* MypageViewController.swift */; };
+		1836D380252C3A6800707F87 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D37E252C3A6800707F87 /* RankingViewController.swift */; };
+		1836D383252C3F1C00707F87 /* MypageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1836D382252C3F1C00707F87 /* MypageViewController.storyboard */; };
+		1836D385252C40DF00707F87 /* RankingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1836D384252C40DF00707F87 /* RankingViewController.storyboard */; };
+		1836D387252C467000707F87 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D386252C467000707F87 /* MainTabBarController.swift */; };
+		1836D389252C535E00707F87 /* RankingNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D388252C535E00707F87 /* RankingNavigationController.swift */; };
+		1836D38C252C557A00707F87 /* MyPageNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D38B252C557A00707F87 /* MyPageNavigationController.swift */; };
+		1836D391252C655300707F87 /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836D38F252C655300707F87 /* RankingTableViewCell.swift */; };
+		1836D392252C655300707F87 /* RankingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1836D390252C655300707F87 /* RankingTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,20 @@
 		1836D357252AD9E900707F87 /* ios-playgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-playgroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1836D35B252AD9E900707F87 /* ios_playgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_playgroundUITests.swift; sourceTree = "<group>"; };
 		1836D35D252AD9E900707F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1836D36A252AE2F700707F87 /* GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		1836D36D252B00CB00707F87 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		1836D36F252B192800707F87 /* DispatchGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchGroup.swift; sourceTree = "<group>"; };
+		1836D373252C0F2500707F87 /* ServiceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListViewController.swift; sourceTree = "<group>"; };
+		1836D376252C193700707F87 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1836D37A252C39C500707F87 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
+		1836D37E252C3A6800707F87 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		1836D382252C3F1C00707F87 /* MypageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MypageViewController.storyboard; sourceTree = "<group>"; };
+		1836D384252C40DF00707F87 /* RankingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RankingViewController.storyboard; sourceTree = "<group>"; };
+		1836D386252C467000707F87 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		1836D388252C535E00707F87 /* RankingNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingNavigationController.swift; sourceTree = "<group>"; };
+		1836D38B252C557A00707F87 /* MyPageNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageNavigationController.swift; sourceTree = "<group>"; };
+		1836D38F252C655300707F87 /* RankingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
+		1836D390252C655300707F87 /* RankingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RankingTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +129,9 @@
 		1836D335252AD9E700707F87 /* ios-playground */ = {
 			isa = PBXGroup;
 			children = (
+				1836D371252C0EEE00707F87 /* Presentation */,
+				1836D36C252B00BC00707F87 /* Extension */,
+				1836D369252AE2DC00707F87 /* MultiPrograming */,
 				1836D336252AD9E700707F87 /* AppDelegate.swift */,
 				1836D338252AD9E700707F87 /* SceneDelegate.swift */,
 				1836D33A252AD9E700707F87 /* ViewController.swift */,
@@ -129,6 +160,97 @@
 				1836D35D252AD9E900707F87 /* Info.plist */,
 			);
 			path = "ios-playgroundUITests";
+			sourceTree = "<group>";
+		};
+		1836D369252AE2DC00707F87 /* MultiPrograming */ = {
+			isa = PBXGroup;
+			children = (
+				1836D36A252AE2F700707F87 /* GCD.swift */,
+				1836D36F252B192800707F87 /* DispatchGroup.swift */,
+			);
+			path = MultiPrograming;
+			sourceTree = "<group>";
+		};
+		1836D36C252B00BC00707F87 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1836D36D252B00CB00707F87 /* UIImage+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1836D371252C0EEE00707F87 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1836D379252C39B200707F87 /* Mypage */,
+				1836D378252C39A700707F87 /* Ranking */,
+				1836D375252C192600707F87 /* Search */,
+				1836D386252C467000707F87 /* MainTabBarController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1836D372252C0EF600707F87 /* ServiceList */ = {
+			isa = PBXGroup;
+			children = (
+				1836D373252C0F2500707F87 /* ServiceListViewController.swift */,
+			);
+			path = ServiceList;
+			sourceTree = "<group>";
+		};
+		1836D375252C192600707F87 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				1836D372252C0EF600707F87 /* ServiceList */,
+				1836D376252C193700707F87 /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		1836D378252C39A700707F87 /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				1836D38A252C536B00707F87 /* Main */,
+				1836D388252C535E00707F87 /* RankingNavigationController.swift */,
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
+		1836D379252C39B200707F87 /* Mypage */ = {
+			isa = PBXGroup;
+			children = (
+				1836D38D252C558200707F87 /* Main */,
+				1836D38B252C557A00707F87 /* MyPageNavigationController.swift */,
+			);
+			path = Mypage;
+			sourceTree = "<group>";
+		};
+		1836D38A252C536B00707F87 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1836D38E252C652E00707F87 /* RankingItemCell */,
+				1836D37E252C3A6800707F87 /* RankingViewController.swift */,
+				1836D384252C40DF00707F87 /* RankingViewController.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1836D38D252C558200707F87 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1836D37A252C39C500707F87 /* MypageViewController.swift */,
+				1836D382252C3F1C00707F87 /* MypageViewController.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1836D38E252C652E00707F87 /* RankingItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				1836D38F252C655300707F87 /* RankingTableViewCell.swift */,
+				1836D390252C655300707F87 /* RankingTableViewCell.xib */,
+			);
+			path = RankingItemCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +357,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1836D385252C40DF00707F87 /* RankingViewController.storyboard in Resources */,
 				1836D346252AD9E800707F87 /* LaunchScreen.storyboard in Resources */,
 				1836D343252AD9E800707F87 /* Assets.xcassets in Resources */,
 				1836D33E252AD9E700707F87 /* Main.storyboard in Resources */,
+				1836D392252C655300707F87 /* RankingTableViewCell.xib in Resources */,
+				1836D383252C3F1C00707F87 /* MypageViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +387,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1836D38C252C557A00707F87 /* MyPageNavigationController.swift in Sources */,
+				1836D389252C535E00707F87 /* RankingNavigationController.swift in Sources */,
+				1836D36B252AE2F700707F87 /* GCD.swift in Sources */,
 				1836D33B252AD9E700707F87 /* ViewController.swift in Sources */,
 				1836D337252AD9E700707F87 /* AppDelegate.swift in Sources */,
+				1836D387252C467000707F87 /* MainTabBarController.swift in Sources */,
+				1836D377252C193700707F87 /* SearchViewController.swift in Sources */,
+				1836D370252B192800707F87 /* DispatchGroup.swift in Sources */,
+				1836D37C252C39C500707F87 /* MypageViewController.swift in Sources */,
+				1836D36E252B00CB00707F87 /* UIImage+Extension.swift in Sources */,
 				1836D341252AD9E700707F87 /* ios_playground.xcdatamodeld in Sources */,
+				1836D374252C0F2500707F87 /* ServiceListViewController.swift in Sources */,
 				1836D339252AD9E700707F87 /* SceneDelegate.swift in Sources */,
+				1836D380252C3A6800707F87 /* RankingViewController.swift in Sources */,
+				1836D391252C655300707F87 /* RankingTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
