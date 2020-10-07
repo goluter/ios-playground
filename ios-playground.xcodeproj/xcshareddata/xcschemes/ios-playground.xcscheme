@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1836D332252AD9E700707F87"
-               BuildableName = "ios-playground.app"
+               BuildableName = "&#x1112;&#x1161;&#x110b;&#x1175;.app"
                BlueprintName = "ios-playground"
                ReferencedContainer = "container:ios-playground.xcodeproj">
             </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1836D332252AD9E700707F87"
-            BuildableName = "ios-playground.app"
+            BuildableName = "&#x1112;&#x1161;&#x110b;&#x1175;.app"
             BlueprintName = "ios-playground"
             ReferencedContainer = "container:ios-playground.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1836D332252AD9E700707F87"
-            BuildableName = "ios-playground.app"
+            BuildableName = "&#x1112;&#x1161;&#x110b;&#x1175;.app"
             BlueprintName = "ios-playground"
             ReferencedContainer = "container:ios-playground.xcodeproj">
          </BuildableReference>
