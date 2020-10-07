@@ -38,13 +38,11 @@ class ViewController: UIViewController {
     }
     
     func tabbar() {
-        let rankingVC = RankingViewController.create()
-        let myPageVC = MypageViewController.create()
-        
-        rankingVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
-        myPageVC.tabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 1)
-
-        let controllers = [rankingVC, myPageVC]
-        tabBarController?.viewControllers =  controllers.map { UINavigationController(rootViewController: $0)}
+//        let rankingVC = RankingViewController.create()
+//        let myPageVC = MypageViewController.create()
+//
+//
+//        let controllers = [rankingVC, myPageVC]
+//        tabBarController?.viewControllers =  controllers.map { UINavigationController(rootViewController: $0)}
     }
 }

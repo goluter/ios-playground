@@ -27,5 +27,15 @@ class RankingTableViewCell: UITableViewCell {
     func drawBy(model: String) {
         title.text = model
         title.numberOfLines = 0
+        
+         DispatchQueue.global().async {
+                    ImageDownloadManger.shared().download("https://images.unsplash.com/photo-1576091160651-e028ca26a943?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") { (image) in
+                            DispatchQueue.main.async {
+        //
+                                self.title.numberOfLines = 0
+                                self.title.text = "wkdlwptps://images.unspl.com/photo-1576091160651-e028ca26a943?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=tps://images.unsplash.com/photo-1576091160651-e028ca26a943?ixlib=rb-1..1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=tps://images.unsplash.com/photo-1576091160651-e028ca26a943?ixlib=rb-1..1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=tps://images.unsplas.com/photo-1576091160651-e028ca26a943?ixlib=rb-1..1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=tps://images.unsplash.com/photo-1576091160651-e028ca26a943?ixlib=rb-1..1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=tps://images.unsplash.com/photo-1576091160651-e028ca26a943?ixlib=rb-1..1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=tps://images.unsplas.com/photo-1576091160651-e028ca26a943?ixlib=rb-1..1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit="
+                            }
+                        }
+                    }
     }
 }

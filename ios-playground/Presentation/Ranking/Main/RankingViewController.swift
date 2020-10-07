@@ -12,7 +12,7 @@ class RankingViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    let datas = ["hi", "hihihihi", "weqweklwkelqkelkqlkelqkelkqlekqlkelqkelkqwlekqwlkelqkelqkelqkwelkqwlek"]
+    let datas = ["hi", "kdlwptps://images.unspl.com/photo-1576091160651-e028ca26a943?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=tps://images.unsplash.com/photo-1576091160651-e028ca26a943?ixlib=rb-1..1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=tps://images.unsplash.com/photo-1576091160651-e028ca26a943?ixlib=rb-1..1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=tps://images.unsplas.com/photo-1576091160651-e028ca26a943?ixlib=rb-1..1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=tps://images.unsplash.com/photo-1576091160651-e028ca26a943?ixlib=rb-1..1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=tps://images.unsplash.com/photo-1576091160651-e028ca26a943?ixlib=rb-1..1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=tps://images.unsplas.com/photo-1576091160651-e028ca26a943?ixlib=rb-1..1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&", "weqweklwkelqkelkqlkelqkelkqlekqlkelqkelkqwlekqwlkelqkelqkelqkwelkqwlek"]
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -27,7 +27,12 @@ class RankingViewController: UIViewController {
         
         //
 //        self.tableView.contentInsetAdjustmentBehavior = .never
-    
+        let searchResultViewController = SearchResultViewController.create()
+        navigationItem.searchController = searchResultViewController.searchViewController
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.searchController?.searchBar.sizeToFit()
+        
+        
         self.tableView.separatorStyle = .none
         self.tableView.dataSource = self
         self.tableView.delegate = self
@@ -35,11 +40,13 @@ class RankingViewController: UIViewController {
         self.tableView.estimatedRowHeight = 44
         self.tableView.register(UINib(nibName: RankingTableViewCell.nibName, bundle: nil), forCellReuseIdentifier:  RankingTableViewCell.nibName)
         
+        
+        
         // Do any additional setup after loading the view.
     }
     
     static func create() -> RankingViewController {
-        let viewController = UIStoryboard(name: "RankingViewController", bundle: nil).instantiateViewController(withIdentifier: "RankingViewController") as! RankingViewController
+        let viewController = UIStoryboard(name: "Ranking", bundle: nil).instantiateViewController(withIdentifier: "RankingViewController") as! RankingViewController
         
         viewController.navigationItem.title = "랭킹"
         viewController.navigationItem.largeTitleDisplayMode = .always

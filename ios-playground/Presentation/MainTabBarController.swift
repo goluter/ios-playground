@@ -33,7 +33,13 @@ class MainTabBarController: UITabBarController {
     func initViewControllers() {
         let rankingNavVC = RankingNavigationController.create()
         let myPageNavVC = MyPageNavigationController.create()
-        let controllers = [rankingNavVC, myPageNavVC]
+        let authNavVC = AuthNavigationController.create()
+        
+        rankingNavVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
+        myPageNavVC.tabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 1)
+        authNavVC.tabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 2)
+
+        let controllers = [rankingNavVC, myPageNavVC, authNavVC]
 //        self.viewControllers = controllers.map { UINavigationController(rootViewController: $0)
 //        }
         self.viewControllers = controllers

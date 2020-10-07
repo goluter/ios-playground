@@ -9,7 +9,6 @@
 import UIKit
 
 class MyPageNavigationController: UINavigationController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,6 +23,8 @@ class MyPageNavigationController: UINavigationController {
        controller.title = "마이페이지"
        controller.tabBarItem = UITabBarItem(title: "we1", image: UIImage(systemName: "magnifyingglass"), selectedImage: nil)
        
+        
+        
        return controller
    }
 }

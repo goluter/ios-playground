@@ -20,6 +20,8 @@ class RankingNavigationController: UINavigationController {
 
         controller.navigationBar.prefersLargeTitles = true
         controller.navigationItem.largeTitleDisplayMode = .automatic
+        
+        
 //        controller.navigationBar.sizeToFit()
 //        controller.navigationBar.prefersLargeTitles = true
          // System icons: https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/system-icons/
